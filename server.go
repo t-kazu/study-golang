@@ -36,7 +36,7 @@ type Page struct {
 }
 
 func fortuneTellingAPI() Page {
-	url := "http://api.jugemkey.jp/api/horoscope/free/2018/5/3"
+	url := "http://api.jugemkey.jp/api/horoscope/free/2018/5/3" //TODO 日付の指定
 
 	resp, _ := http.Get(url) //TODO エラーハンドリグ
 	defer resp.Body.Close()
