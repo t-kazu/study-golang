@@ -50,7 +50,7 @@ func fortuneTellingAPI() Page {
 		return Page{"err","err",0,"err"} //TODO いい文言に変える
 	}
 
-	//TODO 日付はPostされたものを指定する
+	//TODO 日付と星座ははPostされたものを指定する
 	page := Page{"2018/5/3",data.Horoscope.Two018053[0].Content, data.Horoscope.Two018053[0].Rank, data.Horoscope.Two018053[0].Sign}
 	return page
 }
