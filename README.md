@@ -1,7 +1,7 @@
 # Fortune Go -星座占い管理ツール-
 
 ## 概要
-[Web ad Fortune](http://jugemkey.jp/api/waf/api_free.php)から星座占いを取得し、保存。共有を行います
+[Web ad Fortune](http://jugemkey.jp/api/waf/api_free.php)から星座占いを取得し、保存や共有を行います
 
 ## 環境
 - 検証は以下の環境で行っております
